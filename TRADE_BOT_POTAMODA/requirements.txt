@@ -1,0 +1,8 @@
+opencv-python
+numpy
+mss
+pyautogui
+tkinter
+pandas
+scikit-learn
+tensorflow  # Optional if using ML models for analysis

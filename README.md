@@ -13,13 +13,13 @@ A simple yet powerful trading bot designed to automate trading strategies using 
   - Tracks and displays win/loss ratios dynamically.
 
 ## Project Structure 📂
-trading_bot/
-│
-├── main.py # Main application entry point
-├── simple_mode.py # Simple trading mode implementation
-├── automated_mode.py # Automated trading mode implementation
-├── utils.py # Utility functions for calculations
-└── config.py # Configuration settings (coords, screen region)
+  trading_bot/
+  │
+  ├── main.py # Main app
+  ├── simple_mode.py 
+  ├── automated_mode.py 
+  ├── utils.py # Utility for calc
+  └── config.py # Configuration settings (coords, screen region)
 
 
 ## Installation ✨
@@ -27,7 +27,9 @@ trading_bot/
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/trading_bot.git
-   ```bash
+   
+
+```bash
    pip install numpy pandas opencv-python mss pyautogui
 
 ## Usage 💡

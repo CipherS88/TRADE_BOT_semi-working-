@@ -1,38 +1,38 @@
 # Trading Bot 🤖💹
 
-A simple yet powerful trading bot designed to automate trading strategies using Python. This project includes two modes: **Simple Mode** for manual analysis and **Automated Mode** for executing trades based on predefined logic.
+Welcome to the Trading Bot! A fun and simple tool to automate your trading strategies with about **70% accuracy**. 🤷‍♂️
 
 ## Features 🚀
 
-- **Simple Mode**: 
-  - Analyze screen data and suggest buy/sell actions based on visual patterns.
-  - Easy-to-use graphical interface.
-
-- **Automated Mode**: 
-  - Executes buy/sell orders every 10 seconds based on market data analysis.
-  - Tracks and displays win/loss ratios dynamically.
+- **Simple Mode**: Get buy/sell suggestions based on visual patterns. It's like having a friend who knows a bit about trading!
+  
+- **Automated Mode**: Let the bot trade for you every 10 seconds. Just sit back and relax (or panic)!
 
 ## Project Structure 📂
-  trading_bot/
-  │
-  ├── main.py # Main app
-  ├── simple_mode.py 
-  ├── automated_mode.py 
-  ├── utils.py # Utility for calc
-  └── config.py # Configuration settings (coords, screen region)
-
-
+ ```
+trading_bot/
+│
+├── main.py # Launches the fun!
+├── simple_mode.py # For the manual lovers
+├── automated_mode.py # For the lazy geniuses
+├── utils.py # Handy functions
+└── config.py # Where the magic happens
+ ```
 ## Installation ✨
 
-1. Clone the repository:
+1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/trading_bot.git
-   
+   git clone https://github.com/CipherS88/trading_bot.git
+   ```
+## pip install ✨
 
-```bash
+   ```bash
    pip install numpy pandas opencv-python mss pyautogui
+   ```
 
-## Usage 💡
-  Run main.py to launch the application:
-   ```bash
-      python main.py
+## Happy trading, and may your losses be small! 🤑📈
+
+
+
+
+
